@@ -1,6 +1,6 @@
 This is a pretty bad documented and totally unmaintained face alignment project.
 
-# Usage
+### Usage
 Build (compiling Dlib and OpenCV takes ages, be patient) and run a bash into the container:
 ```
 docker build -t face .
@@ -16,5 +16,5 @@ face_average(path, target)
 face_morph(path, target)
 ```
 
-# Credits
+### Credits
 Based on [Average Face : OpenCV (C++ / Python) Tutorial](https://medium.com/@LearnOpenCV/average-face-opencv-c-python-tutorial-3a89b5347bdd)
